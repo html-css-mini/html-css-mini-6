@@ -1,0 +1,169 @@
+
+@import url(../technology-usd/common.css);
+
+
+/* header style */
+header {
+  background: #fff;
+  display: flex;
+  background: url(../img/main.jpg) no-repeat;
+  height: 100vh;
+}
+
+header h1 {
+  /* background: orange; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  padding: 20px;
+}
+
+header li {
+  display: block;
+  font-weight: 100;
+  width: 50%;
+  padding: 50px;
+}
+
+
+/* usd style */
+.container {
+  height: 330vh;
+  /* border: 5px solid #000; */
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* usd style - 왼쪽박스 */
+.container .box1 {
+  /* border: 2px solid red; */
+  width: 50%;
+}
+.container .box1 h1, h2, h3 {
+  /* background: red; */
+  padding: 20px 0;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+/* 왼쪽박스 div 전체 */
+.container .box1 div {
+  font-size: 20px;
+  text-align: left;
+  color: gray;
+  line-height: 35px;
+}
+.container .box1 a .image1, .image3 {
+  width: 100%;
+  margin-top: 50px;
+}
+.container .box1 a .image2 {
+  width: 100%;
+  margin-top: 30px;
+}
+.container .box1 .usd3 {
+  padding: 30px;
+  text-align: center;
+}
+.container .box1 .usd1, .usd2, .usd4, .usd5, .usd6, .usd8, .usd9 {
+  margin-top: 30px;
+}
+.container .box1 .usd7 a {
+  color: skyblue;
+  border-bottom: 1px solid skyblue;
+}
+
+.container .box1 .a1::after {
+  content: '<';
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+
+/* usd style - 오른쪽 박스 */
+.container .box2 {
+  /* border: 2px solid blue; */
+  width: 25%;
+}
+
+.container .box2 .image4 {
+  width: 100%;
+}
+
+.container .box2 .usd1 {
+  padding: 30px 0;
+  color: gray;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container .box2 .usd2, .usd3, .usd4, .usd5, .usd6 {
+  font-size: 18px;
+  text-align: left;
+  color: gray;
+  line-height: 35px;
+  position: relative;
+  /* margin-bottom: 100px; */
+}
+.container .box2 .usd2 a {
+  color: skyblue;
+  font-size: 20px;
+  border-bottom: 1px solid skyblue;
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+}
+.container .box2 .usd2 {
+  margin-bottom: 90px;
+}
+.container .box2 h1 {
+  margin-top: 50px;
+  text-align: right;
+  font-size: 80px;
+  /* border: 1px solid #000; */
+  position: relative;
+}
+.container .box2 .logo {
+  width: 100px;
+  height: 150px;
+  position: absolute;
+}
+.container .box2 h1 span {
+  font-weight: 1000;
+}
+.container .box2 .usd3 {
+  margin-top: 70px;
+}
+.container .box2 .usd3 a {
+  color: skyblue;
+  border-bottom: 1px solid skyblue;
+}
+.container .box2 .usd6 a {
+  font-size: 20px;
+  color: skyblue;
+  border-bottom: 1px solid skyblue;
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+}
+/* 밑줄 */
+hr {
+  color: gray;
+  margin-top: 40px;
+}
+
+
+/* footer style */
+footer {
+  padding: 150px;
+  background: red;
+}
+
+
