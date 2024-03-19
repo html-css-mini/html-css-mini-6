@@ -1,0 +1,184 @@
+
+@import url(../common.css);
+
+
+body {
+  font-family: "FuturaPTMedium", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: 0em;
+  line-height: 1.7em;
+  text-transform: none;
+  color: rgba(29, 29, 29, .7);
+
+}
+
+header {
+  /* background: skyblue; */
+  font-family: "HvDTrial_Brandon_Grotesque_medium_italic-BF64a625c928c55", sans-serif;
+  font-weight: 700;
+}
+header .inner-header {
+  /* border: 3px solid black; */
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner-header .logo {
+  
+  height: 100px;
+  padding-left: 30px;
+
+  display: flex;
+  flex-flow: flex flex-start;
+  align-items: center;
+  /* flex */
+}
+header .inner-header .logo img{
+  height: 28%;
+  padding: auto 0;
+}
+header .inner-header .gnb {
+  /* border: 2px solid blueviolet; */
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+}
+header .inner-header .gnb li {
+  padding-left: 55px;
+  font-size: 15px;
+  
+}
+
+.index-page {
+  width: 100%;
+  height: 750px;
+  background: orange;
+  overflow: hidden;
+  position: relative;
+}
+.index-page .background-box {
+  background: url('https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1417558138947-9K5W98C5PDLKGGJ92E9W/jobs3.jpg?format=2500w')
+   no-repeat center/cover;
+  background-attachment: fixed;
+
+  position: relative;
+  z-index: 2;
+  padding-top: 500px;
+  padding-bottom: 250px;
+}
+.index-page .main-title {
+  color: #fff;
+  font-family: brandon-grotesque;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 51px;
+  letter-spacing: .29em;
+  line-height: 1em;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+
+/* section 공통 클래스 */
+section.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* section.intro  style */
+section.intro .intro-text {
+  width: 70%;
+  margin: 0 auto;
+  padding: 150px 0 0;
+  text-align: center;
+  font-family: "FuturaPTMedium", sans-serif;
+}
+section.intro .intro-text h2 {
+  color: #1d1d1d;
+  font-family: "HvDTrial_Brandon_Grotesque_medium_italic-BF64a625c928c55", sans-serif;
+  font-size: 39px;
+  margin-bottom: 33px;
+}
+section.intro .btn-container {
+  text-align: center;
+}
+section.intro .btn-container .horizontalrule {
+  width: 17%;
+  margin: 10px auto;
+  padding: 17px;
+  opacity: 0.5;
+}
+section.intro .btn-container .btn-visitlist {
+  padding: 20px 0;
+}
+section.intro .btn-container .btn-visitlist:hover .visitlist {
+  background: #000;
+  color: #fff;
+}
+
+section.intro .btn-container .visitlist {
+  border: 2px solid #000;
+  margin: 40px;
+  padding: 21px 37px;
+  font-size: 15px;
+  font-family: 'rubik', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+section.intro .thumbnails ul {
+  height: 1076px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+section.intro .thumbnails .thumbnail-box {
+  width: 32%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+section.intro .thumbnails .thumbnail-box img {
+  left: 50px;
+  top: 0px;
+  height: 528px;
+  position: relative;
+}
+/* section.intro .thumbnails .thumbnail-box img:first-child {
+  transform: translate(50%, 0);
+} */
+/* section.intro .thumbnails li.thumbnail-box img:last-child {
+  left: -50px
+} */
+
+
+/* section.faq style */
+section.faq-bg {
+  background: url('https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1417558650496-9IPK76GLVQCGHLIOYTZG/faq.jpg?format=2500w')
+  no-repeat center/cover fixed;
+}
+
+section.faq-bg .faqimg-box {
+  height: 1044px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.faq-bg .faqimg-box h3 {
+  font-family: HvDTrial_Brandon_Grotesque_medium_italic-BF64a625c928c55;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 51px;
+  letter-spacing: .29em;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #fff;
+}
