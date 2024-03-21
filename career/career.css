@@ -57,6 +57,8 @@ header .inner-header .gnb li:hover {
   color: #aaa;
 }
 
+/* section.index-page style */
+
 .index-page {
   width: 100%;
   height: 750px;
@@ -84,6 +86,8 @@ header .inner-header .gnb li:hover {
   line-height: 1em;
   text-transform: uppercase;
   z-index: 3;
+  width: 100%;
+  text-align: center;
 }
 
 
@@ -291,4 +295,25 @@ footer .btn-box .btn-personal-info {
 footer .btn-box .btn-personal-info:hover {
   background: #68b631;
   color: #fff;
+}
+
+
+/* 반응형 1024 */
+@media (max-width: 1024px) {
+  #careers-at-pixar-header .index-page {
+    height: 580px;
+  }
+
+  section.intro div.thumbnails ul {
+    height: 590px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  section.intro .thumbnails .thumbnail-box img {
+    left: -90px;
+    top: 0px;
+    height: 285px;
+    position: relative;
+  }
 }
