@@ -61,7 +61,7 @@ section.home-header .index-main {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: blackFadeout 0.3s ease-in;
+  animation: blackFadeout 0.7s ease-in;
 }
 section.home-header .index-main img {
   width: 65%;
@@ -71,8 +71,6 @@ section.pixarhome {
   padding: 150px 142px;
 }
 section.pixarhome ul {
-  /* width: 80%; */
-  /* margin: 0 auto; */
   display: flex;
   justify-content: space-between;
 }
@@ -80,9 +78,9 @@ section.pixarhome .image-box {
   /* border: 3px solid violet; */
 }
 section.pixarhome .image-box a {
-  width: 30%;
+  width: 32%;
   margin: 0 auto;
-  background: orange;
+  /* background: orange; */
   overflow: hidden;
   position: relative;
 }
@@ -101,7 +99,7 @@ section.pixarhome ul .image-box .pixarhome-text {
   font-family: 'HvDTrial Brandon Grotesque', sans-serif;
   font-size: 14px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: .29em;
   line-height: 1.7em;
   text-transform: uppercase;
@@ -200,6 +198,9 @@ footer .btn-box .btn-personal-info:hover {
   section.home-header {  
     height: 722px;
   }
+  section.home-header .index-main img {
+    width: 72%;
+  }
   section.pixarhome {
     padding: 150px 64px;
   }
@@ -210,15 +211,13 @@ footer .btn-box .btn-personal-info:hover {
 
 @keyframes blackFadeout {
   0% {
-    background: #000;
-    opacity: 1;
+    background: rgb(0, 0, 0);
+    /* opacity: 0; */
   }
   50% {
-    background: #000;
-    opacity: 0.5;
+    background: rgba(0, 0, 0, 1);
   }
   100% {
-    background: #000;
-    opacity: 0;
+    background: rgba(0, 0, 0, 0);
   }
 }
