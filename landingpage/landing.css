@@ -1,6 +1,44 @@
 
 @import url(../common.css);
 @import url('https://fonts.cdnfonts.com/css/hvdtrial-brandon-grotesque');
+header {
+  font-family: 'HvDTrial Brandon Grotesque', sans-serif;
+  font-weight: 700;
+}
+header .inner-header {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner-header .logo {
+  height: 100px;
+  padding-left: 50px;
+
+  display: flex;
+  flex-flow: flex flex-start;
+  align-items: center;
+}
+header .inner-header .logo img{
+  height: 26%;
+  padding: auto 0;
+}
+header .inner-header .gnb {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+}
+header .inner-header .gnb li {
+  margin: 0 14px;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+  color: #1d1d1d;
+  transition: 0.3s;
+}
+header .inner-header .gnb li:hover {
+  color: #aaa;
+}
 
 section.home-header {
   
@@ -62,4 +100,73 @@ section.pixarhome ul .image-box .pixarhome-text {
   section.pixarhome {
     padding: 150px 64px;
   }
+}
+
+/* footer style */
+footer {
+  font-family: 'HvDTrial Brandon Grotesque', sans-serif;
+  font-size: 14px;
+  /* font-weight: 300; */
+  letter-spacing: 0.3em;
+  color: #222222c4;
+}
+footer .icon-list {
+  text-align: center;
+}
+footer .icon-list .icon-box {
+  padding: 3px;
+}
+footer .icon-list .icon-box i {
+  color: #222;
+  font-size: 22px;
+  transition: 0.3s;
+}
+footer .icon-list .icon-box .fa-instagram {
+  font-size: 25px;
+}
+footer .icon-list .icon-box .fab:hover {
+  color: #ccc;
+}
+footer .policy-block {
+  width: 40%;
+  margin: 30px auto 10px;
+  text-align: center;
+  line-height: 1.7;
+}
+footer .policy-block span {
+  color: rgba(29, 29, 29, .7);
+}
+footer .policy-block .policy {
+  padding-bottom: 0.05em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(29, 29, 29, .3);
+  transition: 0.5s;
+}
+footer .policy-block .policy:hover {
+  color: rgba(29, 29, 29, .6);
+  border-color: rgba(29, 29, 29, .15);
+}
+footer .company {
+  text-align: center;
+  padding: 0 0 30px;
+}
+footer .btn-box{
+  text-align: center;
+  margin: 0 0 50px;
+}
+footer .btn-box .btn-personal-info {
+  color: #68b631;
+  overflow: visible;
+  border: 1px solid #68b631;
+  height: auto;
+  word-wrap: break-word;
+  padding: 0.9em 2em;
+  font-size: 16px;
+  line-height: 1.2;
+  cursor: pointer;
+}
+footer .btn-box .btn-personal-info:hover {
+  background: #68b631;
+  color: #fff;
 }
