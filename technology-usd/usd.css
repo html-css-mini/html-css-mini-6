@@ -72,7 +72,7 @@ header .main2 .content h1 {
 
 /* <contents style - container> */
 .container {
-  height: 330vh;
+  /* height: 330vh; */
   /* border: 5px solid #000; */
   margin-top: 150px;
   display: flex;
@@ -235,9 +235,12 @@ header .main2 .content h1 {
 
 /* footer style */
 footer {
-  padding: 150px 0;
+  height: 50vh;
+  margin-top: 100px;
+  /* padding: 150px 0; */
   position: relative;
   /* border: 3px solid red; */
+  top:0;
 }
 footer nav.icon {
   /* border: 1px solid #000; */
@@ -274,8 +277,9 @@ footer button {
   border: 1px solid #68b631;
   padding: 20px 30px;
   position: absolute;
-  left: 40%;
-  bottom: 50px;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  bottom: 0;
   font-family: 'Futura PT', sans-serif;
   font-size: 20px;
 }
