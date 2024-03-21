@@ -57,6 +57,11 @@ header .inner-header .gnb li:hover {
   color: #aaa;
 }
 
+header .inner-header .mobile-menu {
+  display: none;
+}
+
+
 /* section.index-page style */
 
 .index-page {
@@ -298,8 +303,30 @@ footer .btn-box .btn-personal-info:hover {
 }
 
 
+
 /* 반응형 1024 */
 @media (max-width: 1024px) {
+  
+  header .inner-header .gnb {
+    display: none;
+  }
+  header .inner-header .logo {
+    height: 50px;
+    /* padding-left: 50px; */
+  
+    display: flex;
+    flex-flow: flex flex-start;
+    align-items: center;
+
+    transform: scale(1.1);
+  }
+  header .inner-header .mobile-menu {
+    display: block;
+    /* font-size: 0.9em; */
+    color: #1d1d1d;
+    /* opacity: 0.8; */
+  }
+
   #careers-at-pixar-header .index-page {
     height: 580px;
   }
@@ -315,5 +342,8 @@ footer .btn-box .btn-personal-info:hover {
     top: 0px;
     height: 285px;
     position: relative;
+  }
+  footer .policy-block {
+    width: 80%;
   }
 }
