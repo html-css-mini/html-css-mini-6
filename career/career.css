@@ -59,6 +59,7 @@ header .inner-header .gnb li:hover {
 
 header .inner-header .mobile-menu {
   display: none;
+  /* border: 3px solid blue; */
 }
 
 
@@ -120,12 +121,13 @@ section.intro .intro-text h2 {
 section.intro .intro-text .intro-detail {
   padding-top: 15px;
   font-size: 22px;
+  color: #1d1d1d;
 }
 section.intro .btn-container {
   text-align: center;
 }
 section.intro .btn-container .horizontalrule {
-  width: 17%;
+  width: 60%;
   margin: 10px auto;
   padding: 17px;
   opacity: 0.4;
@@ -149,7 +151,7 @@ section.intro .btn-container .visitlist {
 }
 /* section.intro .thumbnails style */
 section.intro .thumbnails {
-  padding: 0 0 150px;
+  padding: 17px 0 150px;
 }
 section.intro .thumbnails ul {
   height: 1076px;
@@ -325,12 +327,18 @@ footer .btn-box .btn-personal-info:hover {
     /* font-size: 0.9em; */
     color: #1d1d1d;
     /* opacity: 0.8; */
+  
   }
 
   #careers-at-pixar-header .index-page {
     height: 580px;
   }
-
+  
+  section.main-container {
+    width: 89%;
+    margin: 0 auto;
+  }
+  
   section.intro div.thumbnails ul {
     height: 590px;
     display: flex;
@@ -338,11 +346,20 @@ footer .btn-box .btn-personal-info:hover {
     justify-content: space-evenly;
   }
   section.intro .thumbnails .thumbnail-box img {
-    left: -90px;
-    top: 0px;
     height: 285px;
+    /* top: 50px; */
     position: relative;
   }
+  section.intro .thumbnails .img6 img {
+    left: -90px;
+    /* top: 0px; */
+    height: 285px;
+    /* position: relative; */
+  }
+  section.faq-bg .faqimg-box {
+    height: 800px;
+  }
+  
   footer .policy-block {
     width: 80%;
   }
