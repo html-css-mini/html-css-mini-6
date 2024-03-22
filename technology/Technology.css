@@ -41,7 +41,7 @@ margin-left: 0;
 .inner-Header ul
 {
   width: 70%;
-  margin-left: 50px;
+  margin-left: 130px;
   margin-right: 0px;
   display: flex;
   justify-content: space-evenly;  
@@ -59,6 +59,9 @@ margin-left: 0;
 
 .inner-Header ul li:hover{
   color: rgba(29, 29, 29, .4);
+}
+.inner-Header ul li a{
+  text-decoration: none;
 }
 
 /* 햄버거 만들기 */
